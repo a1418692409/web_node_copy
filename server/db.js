@@ -5,9 +5,9 @@ let mysql=require('mysql');
 let pool=mysql.createPool({
     host:'localhost',
     user:'root',
-    password:'',
-    database:'alphabet',
-    port:3306,
+    password:'masterpwd',
+    database:'blog',
+    port:8807,
     connectionLimit:50,//允许连接数
     multipleStatements : true,  //是否允许执行多条sql语句
     timezone:"08:00" //大坑，必须加这一句，否则时间不对劲

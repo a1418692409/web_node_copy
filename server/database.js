@@ -1,9 +1,9 @@
 const mysql = require('mysql')
 let db = mysql.createConnection({
-    host:'localhost',
+    host:'127.0.0.1',
     user:'root',
-    password:'',
-    port:'3306'
+    password:'masterpwd',
+    port:'8807'
 })
 
 // 创建数据库 
